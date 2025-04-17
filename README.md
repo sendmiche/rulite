@@ -1,13 +1,13 @@
 # ❤️ RULITE — geoip.dat и geosite.dat для России
 
-⚡ Автоматическая сборка оптимизированых файлов **`geoip.dat`** и **`geosite.dat`** каждые **40 минут** после выхода релиза [runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat), **только если файлы действительно изменились**.
+⚡ Автоматическая сборка **облегченных** файлов **`geoip.dat`** и **`geosite.dat`** каждые **40 минут** после выхода релиза [runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat), **только если файлы действительно изменились**.
 
 🧠 Основано на:
 - [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
 - [Antifilter](https://antifilter.network/)
 - [re:filter](https://github.com/1andrevich/Re-filter-lists)
 
-🧪 В файлах оставлено только **самое нужное**:
+🧪 В файлах оставлены только **актуальные категории**:
 - **geosite.dat** ~3.5 MB
 - **geoip.dat** ~1.5 MB
   
