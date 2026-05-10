@@ -11,7 +11,7 @@
   "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/geoip.dat",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/geosite.dat",
   "updateInterval": 43200,
-  "profile-update-interval": 12
+  "profile-update-interval": 12,
   "LastUpdated": "1777651200",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
