@@ -128,5 +128,5 @@
   "BlockIp": [],
   "DomainStrategy": "IPIfNonMatch",
   "FakeDNS": "false",
-  "UseChunkFiles": "true"
+  "UseChunkFiles": "false"
 }
