@@ -119,7 +119,10 @@
     "domain:google",
     "domain:google.com",
     "domain:googleapis.com",
-    "domain:googleusercontent.com"
+    "domain:googleusercontent.com",
+    "domain:happ.su",
+    "domain:incy.cc",
+    "domain:bedolagam.ru"
   ],
   "ProxyIp": [],
   "BlockSites": [
