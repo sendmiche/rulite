@@ -2,8 +2,8 @@
 
 # Проверка на root-права
 if [ "$EUID" -ne 0 ]; then
-  echo "[-] Ошибка: Пожалуйста, запустите скрипт с правами root."
-  exit 1
+    echo "[-] Ошибка: Пожалуйста, запустите скрипт с правами root."
+    exit 1
 fi
 
 CONFIG_FILE="/etc/relay_rules.conf"
@@ -103,17 +103,17 @@ remove_iptables() {
 
 add_rule() {
     echo ""
-    read -p "Протокол (tcp/udp/both): " proto
+    read -p "Протокол (tcp/udp/both): " proto < /dev/tty
     if [[ ! "$proto" =~ ^(tcp|udp|both)$ ]]; then echo "[-] Ошибка: неверный протокол"; return; fi
     
-    read -p "Порт на этом сервере: " lport
+    read -p "Порт на этом сервере: " lport < /dev/tty
     if grep -q -E "^(tcp|udp|both) $lport " "$CONFIG_FILE"; then
         echo "[-] Ошибка: Локальный порт $lport уже занят другим правилом!"
         return
     fi
 
-    read -p "IP удаленного сервера: " rip
-    read -p "Порт на удаленном сервере: " rport
+    read -p "IP удаленного сервера: " rip < /dev/tty
+    read -p "Порт на удаленном сервере: " rport < /dev/tty
 
     echo "$proto $lport $rip $rport" >> "$CONFIG_FILE"
     apply_iptables "$proto" "$lport" "$rip" "$rport"
@@ -125,7 +125,7 @@ delete_rule() {
     list_rules
     if [ ! -s "$CONFIG_FILE" ]; then return; fi
     
-    read -p "Введите номер правила для удаления (0 для отмены): " num
+    read -p "Введите номер правила для удаления (0 для отмены): " num < /dev/tty
     if [[ ! "$num" =~ ^[0-9]+$ ]] || [ "$num" -eq 0 ]; then return; fi
 
     local rule=$(sed -n "${num}p" "$CONFIG_FILE")
@@ -145,7 +145,7 @@ edit_rule() {
     list_rules
     if [ ! -s "$CONFIG_FILE" ]; then return; fi
 
-    read -p "Введите номер правила для изменения (0 для отмены): " num
+    read -p "Введите номер правила для изменения (0 для отмены): " num < /dev/tty
     if [[ ! "$num" =~ ^[0-9]+$ ]] || [ "$num" -eq 0 ]; then return; fi
 
     local rule=$(sed -n "${num}p" "$CONFIG_FILE")
@@ -157,10 +157,10 @@ edit_rule() {
 
     echo ""
     echo "Оставьте поле пустым и нажмите Enter, чтобы не менять значение."
-    read -p "Новый протокол (tcp/udp/both) [$old_proto]: " proto
+    read -p "Новый протокол (tcp/udp/both) [$old_proto]: " proto < /dev/tty
     proto=${proto:-$old_proto}
     
-    read -p "Новый порт на этом сервере [$old_lport]: " lport
+    read -p "Новый порт на этом сервере [$old_lport]: " lport < /dev/tty
     lport=${lport:-$old_lport}
     
     if [ "$lport" != "$old_lport" ] && grep -q -E "^(tcp|udp|both) $lport " "$CONFIG_FILE"; then
@@ -168,10 +168,10 @@ edit_rule() {
         return
     fi
 
-    read -p "Новый IP удаленного сервера [$old_rip]: " rip
+    read -p "Новый IP удаленного сервера [$old_rip]: " rip < /dev/tty
     rip=${rip:-$old_rip}
     
-    read -p "Новый порт на удаленном сервере [$old_rport]: " rport
+    read -p "Новый порт на удаленном сервере [$old_rport]: " rport < /dev/tty
     rport=${rport:-$old_rport}
 
     remove_iptables "$old_proto" "$old_lport" "$old_rip" "$old_rport"
@@ -225,7 +225,7 @@ change_nginx_path() {
     fi
     
     echo "Введите новый путь (без слеша в начале) или оставьте пустым для генерации случайного:"
-    read -p "Новый путь: " new_path
+    read -p "Новый путь: " new_path < /dev/tty
 
     # Если пусто - генерируем
     if [ -z "$new_path" ]; then
@@ -262,7 +262,7 @@ while true; do
     echo "5. Показать статус-путь (Nginx)"
     echo "6. Изменить статус-путь (Nginx)"
     echo "0. Выход"
-    read -p "Выберите действие [0-6]: " choice
+    read -p "Выберите действие [0-6]: " choice < /dev/tty
 
     case $choice in
         1) add_rule ;;
