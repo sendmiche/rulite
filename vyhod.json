@@ -3,11 +3,11 @@
   "GlobalProxy": "true",
   "RouteOrder": "block-proxy-direct",
   "RemoteDNSType": "DoH",
-  "RemoteDNSDomain": "https://xbox-dns.ru/dns-query",
-  "RemoteDNSIP": "111.88.96.50",
+  "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+  "RemoteDNSIP": "1.1.1.1",
   "DomesticDNSType": "DoU",
-  "DomesticDNSDomain": "https://xbox-dns.ru/dns-query",
-  "DomesticDNSIP": "111.88.96.51",
+  "DomesticDNSDomain": "",
+  "DomesticDNSIP": "62.76.76.62",
   "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/geoip.dat",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/geosite.dat",
   "updateInterval": "43200",
@@ -50,7 +50,7 @@
     "keyword:rutube",
     "keyword:wildberries",
     "keyword:lenta",
-    "regexp:^vk(-|\\\\.|user).*",
+    "regexp:^vk(-|\\.|user).*",
     "domain:adjust.com",
     "domain:akamaized.net",
     "domain:amplitude.com",
@@ -73,7 +73,7 @@
     "domain:vmeste-rf.tv",
     "domain:wbstatic.net",
     "domain:wbxcdn.net",
-    "regexp:^ip(-|\\\\.|v?[468]|2|addr|api|base|calf|check|chicken|data|echo|find|geo|info|ify|ip|lark|leak|lig|loc|quality|query|reg|royal|score|stack|verify|who|w|x)",
+    "regexp:^ip(-|\\.|v?[468]|2|addr|api|base|calf|check|chicken|data|echo|find|geo|info|ify|ip|lark|leak|lig|loc|quality|query|reg|royal|score|stack|verify|who|w|x)",
     "regexp:(whatismy|whatsmy|wtfismy|check|my|my-|find|find-my-|free|api|db-|curlmy|extreme-|get|gre|icanhaz|mon|mon-|real|see|showmy|tracemy|trustmy|wget|wieistmeine)ip",
     "regexp:(geo(ip|loc|data|js|plugin)|sxgeo|sypexgeo)",
     "keyword:ifconfig",
@@ -134,3 +134,6 @@
   "FakeDNS": "false",
   "UseChunkFiles": "false"
 }
+
+ 
+
