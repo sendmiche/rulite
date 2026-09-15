@@ -11,7 +11,7 @@
 🧪 В файлах оставлены только актуальные категории:
 
 * `geosite.dat` — 802.0 КБ
-* `geoip.dat` — 790.2 КБ
+* `geoip.dat` — 784.7 КБ
 
 ✅ Отлично подходит для пользователей Happ на iOS
 
@@ -27,16 +27,16 @@
 | 🌍 geosite.dat | 🌐 geoip.dat |
 |---|---|
 | `geosite:ANTHROPIC` | `geoip:BY` |
-| `geosite:ANTIFILTER-DOWNLOAD-COMMUNITY` | `geoip:FACEBOOK` |
-| `geosite:APPLE-INTELLIGENCE` | `geoip:FASTLY` |
-| `geosite:APPLE-UPDATE` | `geoip:GOOGLE` |
-| `geosite:CATEGORY-ADS` | `geoip:NETFLIX` |
-| `geosite:CATEGORY-AI-!CN` | `geoip:PRIVATE` |
-| `geosite:CATEGORY-AI-CHAT-!CN` | `geoip:RE-FILTER` |
-| `geosite:CATEGORY-AI-RU` | `geoip:RU` |
-| `geosite:CATEGORY-ANTICENSORSHIP` | `geoip:TELEGRAM` |
-| `geosite:CATEGORY-BANK-RU` | `geoip:TWITTER` |
-| `geosite:CATEGORY-BETTING-RU` | `geoip:YANDEX` |
+| `geosite:ANTIFILTER-DOWNLOAD-COMMUNITY` | `geoip:GOOGLE` |
+| `geosite:APPLE-INTELLIGENCE` | `geoip:PRIVATE` |
+| `geosite:APPLE-UPDATE` | `geoip:RE-FILTER` |
+| `geosite:CATEGORY-ADS` | `geoip:RU` |
+| `geosite:CATEGORY-AI-!CN` | `geoip:TELEGRAM` |
+| `geosite:CATEGORY-AI-CHAT-!CN` | `geoip:YANDEX` |
+| `geosite:CATEGORY-AI-RU` |  |
+| `geosite:CATEGORY-ANTICENSORSHIP` |  |
+| `geosite:CATEGORY-BANK-RU` |  |
+| `geosite:CATEGORY-BETTING-RU` |  |
 | `geosite:CATEGORY-ECOMMERCE-RU` |  |
 | `geosite:CATEGORY-EDUCATION-RU` |  |
 | `geosite:CATEGORY-ENTERTAINMENT-RU` |  |
