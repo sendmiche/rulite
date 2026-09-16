@@ -30,9 +30,12 @@
 | `geosite:APPLE-INTELLIGENCE` | `geoip:GOOGLE` |
 | `geosite:APPLE-UPDATE` | `geoip:PRIVATE` |
 | `geosite:CATEGORY-ADS` | `geoip:RE-FILTER` |
-| `geosite:CATEGORY-ANTICENSORSHIP` | `geoip:RU` |
-| `geosite:CATEGORY-EDUCATION-RU` | `geoip:TELEGRAM` |
-| `geosite:CATEGORY-ENTERTAINMENT-RU` | `geoip:YANDEX` |
+| `geosite:CATEGORY-AI` | `geoip:RU` |
+| `geosite:CATEGORY-ANTICENSORSHIP` | `geoip:TELEGRAM` |
+| `geosite:CATEGORY-EDUCATION-RU` | `geoip:YANDEX` |
+| `geosite:CATEGORY-ENTERTAINMENT-RU` |  |
+| `geosite:CATEGORY-GAMES` |  |
+| `geosite:CATEGORY-IP-GEO-DETECT` |  |
 | `geosite:CATEGORY-MEDIA-RU` |  |
 | `geosite:CATEGORY-MEDIA-RU-BLOCKED` |  |
 | `geosite:CATEGORY-MEDICINE-RU` |  |
@@ -54,10 +57,6 @@
 | `geosite:WILDBERRIES` |  |
 | `geosite:YANDEX` |  |
 | `geosite:YOUTUBE` |  |
-| `geosite:category-ai` |  |
-| `geosite:category-games` |  |
-| `geosite:category-ip-geo-detect` |  |
-| `geosite:category-ru` |  |
 
 ---
 
