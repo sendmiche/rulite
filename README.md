@@ -30,8 +30,7 @@
 | `geosite:CATEGORY-ADS` | `geoip:PRIVATE` |
 | `geosite:CATEGORY-AI` | `geoip:RU` |
 | `geosite:CATEGORY-ANDROID-APP-DOWNLOAD` | `geoip:RU-BLOCKED-COMMUNITY` |
-| `geosite:CATEGORY-ANTICENSORSHIP` | `geoip:TELEGRAM` |
-| `geosite:CATEGORY-GAME-DOWNLOAD` |  |
+| `geosite:CATEGORY-GAME-DOWNLOAD` | `geoip:TELEGRAM` |
 | `geosite:CATEGORY-GAMES` |  |
 | `geosite:CATEGORY-IP-GEO-DETECT` |  |
 | `geosite:CATEGORY-PORN` |  |
@@ -44,6 +43,7 @@
 | `geosite:GOOGLE-GEMINI` |  |
 | `geosite:GOOGLE-PLAY` |  |
 | `geosite:PRIVATE` |  |
+| `geosite:TLD-RU` |  |
 | `geosite:WIN-SPY` |  |
 | `geosite:YOUTUBE` |  |
 
