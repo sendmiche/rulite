@@ -10,8 +10,8 @@
 
 🧪 В файлах оставлены только актуальные категории:
 
-* `geosite.dat` — 779.6 КБ
-* `geoip.dat` — 787.3 КБ
+* `geosite.dat` — 303.2 КБ
+* `geoip.dat` — 644.1 КБ
 
 ✅ Отлично подходит для пользователей Happ на iOS
 
@@ -26,29 +26,25 @@
 
 | 🌍 geosite.dat | 🌐 geoip.dat |
 |---|---|
-| `geosite:ANTIFILTER-DOWNLOAD-COMMUNITY` | `geoip:BY` |
-| `geosite:APPLE-INTELLIGENCE` | `geoip:GOOGLE` |
-| `geosite:APPLE-UPDATE` | `geoip:PRIVATE` |
-| `geosite:CATEGORY-ADS` | `geoip:RE-FILTER` |
-| `geosite:CATEGORY-AI` | `geoip:RU` |
+| `geosite:APPLE-UPDATE` | `geoip:BY` |
+| `geosite:CATEGORY-ADS` | `geoip:PRIVATE` |
+| `geosite:CATEGORY-AI` | `geoip:RE-FILTER` |
+| `geosite:CATEGORY-ANDROID-APP-DOWNLOAD` | `geoip:RU` |
 | `geosite:CATEGORY-ANTICENSORSHIP` | `geoip:TELEGRAM` |
-| `geosite:CATEGORY-GAMES` | `geoip:YANDEX` |
-| `geosite:CATEGORY-IP-DETECT` |  |
-| `geosite:CATEGORY-MEDIA-RU-BLOCKED` |  |
-| `geosite:CATEGORY-MEDICINE-RU` |  |
+| `geosite:CATEGORY-GAME-DOWNLOAD` | `geoip:YANDEX` |
+| `geosite:CATEGORY-GAMES` |  |
+| `geosite:CATEGORY-IP-GEO-DETECT` |  |
 | `geosite:CATEGORY-PORN` |  |
 | `geosite:CATEGORY-PUBLIC-TRACKER` |  |
 | `geosite:CATEGORY-RU` |  |
+| `geosite:CATEGORY-RU-BLOCKED` |  |
 | `geosite:CATEGORY-SPEEDTEST` |  |
 | `geosite:GOOGLE` |  |
+| `geosite:GOOGLE-DEEPMIND` |  |
+| `geosite:GOOGLE-GEMINI` |  |
 | `geosite:GOOGLE-PLAY` |  |
-| `geosite:INSTAGRAM` |  |
-| `geosite:MAILCOM` |  |
-| `geosite:MAILRU` |  |
 | `geosite:PRIVATE` |  |
-| `geosite:RU-AVAILABLE-ONLY-INSIDE` |  |
-| `geosite:WILDBERRIES` |  |
-| `geosite:YANDEX` |  |
+| `geosite:WIN-SPY` |  |
 | `geosite:YOUTUBE` |  |
 
 ---
