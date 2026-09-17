@@ -11,7 +11,7 @@
 🧪 В файлах оставлены только актуальные категории:
 
 * `geosite.dat` — 303.2 КБ
-* `geoip.dat` — 409.1 КБ
+* `geoip.dat` — 409.0 КБ
 
 ✅ Отлично подходит для пользователей из России для Happ и INCY
 
@@ -29,7 +29,7 @@
 | `geosite:APPLE-UPDATE` | `geoip:BY` |
 | `geosite:CATEGORY-ADS` | `geoip:PRIVATE` |
 | `geosite:CATEGORY-AI` | `geoip:RU` |
-| `geosite:CATEGORY-ANDROID-APP-DOWNLOAD` | `geoip:RU-BLOCKED-COMMUNITY` |
+| `geosite:CATEGORY-ANDROID-APP-DOWNLOAD` | `geoip:RU-BLOCKED` |
 | `geosite:CATEGORY-GAME-DOWNLOAD` | `geoip:TELEGRAM` |
 | `geosite:CATEGORY-GAMES` |  |
 | `geosite:CATEGORY-IP-GEO-DETECT` |  |
