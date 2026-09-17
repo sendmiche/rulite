@@ -10,8 +10,8 @@
 
 🧪 В файлах оставлены только актуальные категории:
 
-* `geosite.dat` — 787.7 КБ
-* `geoip.dat` — 784.7 КБ
+* `geosite.dat` — 779.6 КБ
+* `geoip.dat` — 787.3 КБ
 
 ✅ Отлично подходит для пользователей Happ на iOS
 
@@ -32,20 +32,14 @@
 | `geosite:CATEGORY-ADS` | `geoip:RE-FILTER` |
 | `geosite:CATEGORY-AI` | `geoip:RU` |
 | `geosite:CATEGORY-ANTICENSORSHIP` | `geoip:TELEGRAM` |
-| `geosite:CATEGORY-EDUCATION-RU` | `geoip:YANDEX` |
-| `geosite:CATEGORY-ENTERTAINMENT-RU` |  |
-| `geosite:CATEGORY-GAMES` |  |
-| `geosite:CATEGORY-IP-GEO-DETECT` |  |
-| `geosite:CATEGORY-MEDIA-RU` |  |
+| `geosite:CATEGORY-GAMES` | `geoip:YANDEX` |
+| `geosite:CATEGORY-IP-DETECT` |  |
 | `geosite:CATEGORY-MEDIA-RU-BLOCKED` |  |
 | `geosite:CATEGORY-MEDICINE-RU` |  |
 | `geosite:CATEGORY-PORN` |  |
 | `geosite:CATEGORY-PUBLIC-TRACKER` |  |
-| `geosite:CATEGORY-RETAIL-RU` |  |
 | `geosite:CATEGORY-RU` |  |
 | `geosite:CATEGORY-SPEEDTEST` |  |
-| `geosite:CATEGORY-TECH-MEDIA-RU` |  |
-| `geosite:CATEGORY-TRAVEL-RU` |  |
 | `geosite:GOOGLE` |  |
 | `geosite:GOOGLE-PLAY` |  |
 | `geosite:INSTAGRAM` |  |
@@ -53,7 +47,6 @@
 | `geosite:MAILRU` |  |
 | `geosite:PRIVATE` |  |
 | `geosite:RU-AVAILABLE-ONLY-INSIDE` |  |
-| `geosite:TLD-RU` |  |
 | `geosite:WILDBERRIES` |  |
 | `geosite:YANDEX` |  |
 | `geosite:YOUTUBE` |  |
